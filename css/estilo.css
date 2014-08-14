@@ -1,0 +1,107 @@
+body{
+ 	color:black;
+ 	background: lightgray;
+ 	font-family: Arial;
+ 	font-size:16px;
+ 	margin: 0;
+ }
+ 
+#logo{
+	background-image: url("../img/logo.jpg");
+	margin:0 auto;
+	margin-bottom: 12px;
+ 	max-width: 1000px;
+	min-height: 150px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+ }
+
+ 
+#menu{
+ 	margin:0 auto;
+ 	text-align: center;
+ 	padding: 20px 0;
+ 	background: peru;
+ 	max-width: 1000px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+ }
+
+ #menu ul{
+ 	padding: 0;
+ }
+
+ #menu ul li{
+ 	display:inline-block;
+ 	list-style: none;
+ 	padding:10px;
+ 	background:gray;
+ 	margin:10px;
+ 	width: 130px;
+ }
+ #menu ul li:last-child{
+ 	width: 150px;
+ }
+ #menu ul li a{
+ 	color: white;
+ 	text-decoration: none;
+ }
+ 
+ #contenido{
+	color: white;
+	background: purple;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30px;
+	max-width: 1000px;
+	min-height: 250px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+
+#contenido p{
+padding: 20%;
+}
+ 
+ @media screen and (max-width: 800px) {
+
+  #menu{
+		background: Red;
+	}
+	
+	
+  #menu ul li{
+		background: green;
+ 	}
+	
+	#contenido p{
+font-size: 15px;
+}
+ }
+ 
+
+
+@media screen and (max-width:480px){
+
+	#menu{
+		background: yellow;
+	}
+ 
+ 	#menu ul li{
+		background: blue;
+ 		display:block;	
+ 		width:auto !important;
+ 	}
+
+	#contenido{
+		display: none;
+	} 
+ 	
+ }
+ 
+
